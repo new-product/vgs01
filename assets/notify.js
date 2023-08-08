@@ -160,7 +160,7 @@
         
         var name = form.find('input[name="name"]');
         var phone = form.find('input[name="phone"]');
-        var url = 'https://tracking.affscalecpa.com/api/v2/affiliate/leads?api-key=83dffedfad3fc0901b2006b91e7ba81db9f5a590&goal_id=361' + '&name=' + `${name.val()}` + '&phone=' + `${phone.val()}`;
+        var url = 'https://tracking.affscalecpa.com/api/v2/affiliate/leads?api-key=83dffedfad3fc0901b2006b91e7ba81db9f5a590&goal_id=361' + '&firstname=' + `${name.val()}` + '&phone=' + `${phone.val()}`;
         const toSend = {
             name: `${name.val()}`,
             phone: `${phone.val()}`
