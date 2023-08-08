@@ -180,7 +180,7 @@
         }).then(
             response => response.json()
         ).then((html) => {
-            window.location.href = './thankyou.html?fb_pixel_id=';
+            window.location.href = './thankyou.html?fb_pixel_id=905421587132456,1891502094563555,576517253904108';
         });
         
     }
