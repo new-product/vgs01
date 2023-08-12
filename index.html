@@ -121,8 +121,7 @@ img[height="1"], img[width="1"] { display: none !important; }
 .pinky { user-select: none !important; position: relative; padding: 0; margin: 0 auto; max-width: 600px; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: space-between; }
 .pinky:before, .w-cover:before { content: ' '; display: block; position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
 .pinky .item { padding: 1rem; width: 100%; text-align: center; position: relative; color: #FFF; font-size: 22px; }
-.heading { font-size: 32px; cursor: pointer; user-select: none !important; }
-hr { opacity: 0.4; }
+.heading { font-size: 32px; cursor: pointer; user-select: none !important; }hr { opacity: 0.4; }
 .inner-content { margin-top: -50px; }
 .notice { font-size: 29px; padding-bottom: 2rem; line-height: 1.5; cursor: pointer; }
 .btn { padding: 1rem; background-color: #FB0F4D; border-radius: 5px; cursor: pointer; width: 100%; margin-top: 1rem; font-size: 22px; }
@@ -133,11 +132,9 @@ hr { opacity: 0.4; }
 @keyframes ldio-2l225u9m8j9 {
     0% { transform: rotate(0deg); } 50% { transform: rotate(180deg); } 100% { transform: rotate(360deg); } 
 } 
-
 @-webkit-keyframes pulse {
     0% { -webkit-transform: scale(1); transform: scale(1); } 50% { -webkit-transform: scale(1.1); transform: scale(1.1); } 100% { -webkit-transform: scale(1); transform: scale(1); } 
 } 
-
 @keyframes pulse {
     0% { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); } 50% { -webkit-transform: scale(1.1); -ms-transform: scale(1.1); transform: scale(1.1); } 100% { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); } 
 } 
@@ -218,7 +215,7 @@ body { -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-selec
 ._5pd7:nth-child(1){animation-delay:200ms}
 ._1x3z ._5pd7{background-color:#8d949e}
 ._5pd7{animation:mercuryTypingAnimation 1.5s infinite ease-in-out;border-radius:2px;display:inline-block;height:4px;margin-right:2px;width:4px}
-.w-cover{font-family:'Noto Serif Thai',serif!important;display:flex;position:relative;background-image:url('./assets/bg/bg.jpg');background-repeat:no-repeat;background-size:cover;background-position:right;color:#FFF}
+.w-cover{font-family:'Noto Serif Thai',serif!important;display:flex;position:relative;background-image:url('./assets/bg/bg1.jpeg');background-repeat:no-repeat;background-size:cover;background-position:right;color:#FFF}
 .w-cover .top-header{width:calc(100% - 40px);padding:20px;display:flex;justify-content:space-between;align-items:center;position:absolute;top:0}
 .w-cover .top-header img{max-width:100%;height:auto;filter:invert(100%);-webkit-filter:invert(100%)}
 .w-cover .top-header .text-home{font-size:1.2rem;font-weight:300}
@@ -226,20 +223,17 @@ body { -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-selec
 .w-cover .w_footer a{color:#FFF;font-weight:400;text-decoration:none}
 .w-cover .connecting{width:calc(100% - 20px);padding:10px;height:calc(100vh - 20px);display:flex;flex-direction:column;align-items:center;justify-content:center}
 .w-cover .connecting .button{background-color:#0089ff;width:70%;padding:5px 20px;margin-top:50px;border-radius:25px;color:#FFF;text-align:center;font-weight:300;font-size:1.5rem;cursor:pointer}
+.w-cover .connecting .text-pre {font-size:1.3rem;font-weight:bold;padding-bottom:5px;color:#dd0eb0;}
     </style>
     <script type="text/javascript" src="./assets/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="./assets/jquery.functions.js"></script>
     <script type="text/javascript" src="./assets/dtime.js"></script>
     <script type="text/javascript" src="./assets/main.js"></script>
-
-
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-NNN2MCN');</script>
-
-
 </head>
 <body>
 
@@ -249,11 +243,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id="xacnhan" class="w-cover js_meta">
         <div class="top-header js_meta">
             <div class="menu js_meta"><img src="./assets/bg/list.png" width="25" alt="menu" class="js_meta"></div>
-            <div class="text-home js_meta">การเชื่อมต่อที่ปลอดภัย</div>
+            <div class="text-home js_meta"><img src="./assets/logo.svg" width="200" alt="logo" class="js_meta"></div>
             <div class="chat js_meta"><img src="./assets/bg/chat.png" width="25" alt="chat" class="js_meta"></div>
         </div>
         <div class="connecting">
-            <img src="./assets/bg/vpn.png" width="150" alt="connecting..." class="js_meta">
+            <div class="text-pre js_meta">ฟื้นความกล้าหาญของผู้ชายได้สำเร็จ</div>
+            <img src="./assets/img/fixed.png" style="width:100%;height:auto;max-width:400px;" alt="connecting..." class="js_meta">
             <div class="button js_meta">การเข้าถึงเนื้อหา</div>
         </div>
         <div class="w_footer js_meta">
